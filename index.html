@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/styles.css" > <!-- This "calls" the css file -->
+<title>Paul Vitely-Chow</title> <!-- Title that shows ontop of the tab -->
+<link rel="shortcut icon" href="p_blue.ico" /> <!-- This adds an icon next to the title file -->
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script> <!-- This "calls" the jquery file -->
+<script type="text/javascript" src="js/javascript.js"></script> <!-- This "calls" the javascript file for the nav bar to stick to the top of the page-->
+<script type="text/javascript" src="js/smoothscroll.js"></script><!-- This "calls" the file that allows the nav bar to scroll smoothly -->
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Vollkorn"> <!-- This "calls" the font Vollkorn from google-->
+
+<div id="header"> <!-- Putting the div id here allows the nav bar to scroll to this area when you click on home -->
+</div>
+</head>
+<body>
+
+
+<div class="firstpic"></div> <!-- This calls the class "firstpic" from the css file. -->
+        
+		<!-- This is the navagation bar stuff -->
+		<div id="navWrap">
+            <div id="nav">
+                <ul>
+                    <li><a href="#lastpic" class="smoothScroll">Contact Me</a></li> <!-- This is the contact me button -->
+                    <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li> <!-- This is the portfolio me button -->
+                    <li><a href="#aboutme" class="smoothScroll">About Me</a></li> <!-- This is the about me button -->
+					<li><a href="#header" class="smoothScroll">Home</a></li> <!-- This is the home me button -->
+                </ul>    
+                <br class="clearLeft" />
+            </div>
+        </div>
+
+	<!-- End of navagation bar stuff -->
+	
+	
+<!-- This is the "about me" section of the page -->	
+	
+	<div id="aboutme">
+<div class="container"> <!-- Adds the grey container with a border -->
+
+<center><img src="images/aboutme.png" alt="About Me" /><center> <!-- This adds and centers the ABOUT ME picture -->
+    <div class="clearfix"><img class="selfie" src="images/me.jpg" alt="Me" /> <!-- This adds the selfie pic -->
+	<h3><p>My name is Paul Vitely-Chow and when I was about 5 years old my mother was given a computer as a gift from my grandfather. I remember helping her open up the box and watching her set it up on the desk.
+	Once it was set up she taught me some basic functionality and I was instantly hooked. The more I used it the more I loved it. It made me want to learn everything about computers.
+	It even spawned a dream of having one for my own. It took until I was 15 to complete that dream. I remember working extremely hard at a landscaping job for an entire summer.
+	Even though it was hard work I knew it was going to be worth it at the end. Once I finally gathered enough funds I taught myself how to build a computer and I built it.
+	The moment my computer ran properly I knew I wanted to do something in IT. Thanks to NPower I'm now learning a lot about the IT industry and I'm looking forward to being apart of it.<p></h3><h1> <!-- The paragraph with border stuff -->
+</div>
+</div>
+</div>
+
+<!-- This is the end of the "about me" section -->
+
+<div class="secondpic"> <!-- Adds the background with the laptop and phone -->
+</div>
+
+
+
+<!-- This is the "Portfolio" section of the page -->
+<div id="portfolio"> 
+<div class="container"> <!-- Adds another container -->
+
+<center>
+
+<img src="images/portfolio.png" alt="Portfolio" /> <!-- Adds the portfolio picture, I used this picture instead of making the text in css cause it was easier to do in photoshop -->
+    <h1>Here are some of the things I've created so far
+	<br>
+	<a href="https://docs.google.com/presentation/d/1hxojcnxCeetw0wHpnnieOgmeA70ptZaqc7vNu73zm8I/edit?usp=sharing"><img src="images/league.jpg" alt="Object Oriented Programming Assignment" class="effects"/></a>
+	<a href="https://github.com/paulvchow/miniproject1/tree/master/LoopyPlanetsConsole"><img src="images/console.jpg" alt="Loopy Planets Console Assignment" class="effects" /></a>
+	<a href="https://github.com/paulvchow/miniproject1/tree/master/LoopyPlanetsPaulChow"><img src="images/windowsform.jpg" alt="Loopy Planets Windows Form Assignment" class="effects" /></a>
+
+	<!-- ^^^Adds three pictures I made to showcase the projects we've made in class -->
+	</h1>
+	</div>
+	</center>
+</div>
+</div>
+
+<!-- This is the end "Portfolio" section of the page -->
+
+
+
+<div class="lastpic"></div><!-- This adds the final background picture -->
+
+<!-- This is the end "Contact me" section of the page -->
+<div class="container"> <!-- adds another container -->
+ <center><img src="images/contactme.png" alt="Contact Me" /><center> <!-- adds the Contact me image and centers it -->
+ <div class="formcontainer"> <!-- This adds the contact me form -->
+ <div id="lastpic"></div> <!-- This id is for the navbar to navigate to when you click "contact me" -->
+ 
+<form action="thanks.html" method="post" enctype="text/plain"> <!-- When you click submit it will lead to another html page with my email since I couldnt get this form to work properly -->
+    <label for="fname">Full Name</label> <!-- Says full name in the form -->
+    <input type="text" id="fname" name="firstname" placeholder="Enter your full name.."> <!-- This is where you would write your first name, placeholder is what is written in the blank textbox -->
+ 
+    <label for="email">Email Address</label>
+    <input type="text" id="email" name="email" placeholder="Enter your email address"> <!-- This is where you would write your email-->
+
+    <label for="message">Message</label> 
+    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea> <!-- This is where you would write your message -->
+
+    <input type="submit" value="Send "> <!-- This is send button -->
+  </form>
+</div>
+  </div>
+</body>
+<footer>© Copyright Paul Vitely-Chow 2017</footer> <!-- This is the text that is written at the bottom of the website -->
+
+</html>
